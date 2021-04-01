@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [softwaretestingmaterial]">
+  <listeners>
+    <listener class-name="com_automation.Listeners.ITestListenerReport"/>
+  </listeners>
+  <test name="testngTest">
+    <classes>
+      <class name="com_automation.Runnner.Runnner"/>
+    </classes>
+  </test> <!-- testngTest -->
+  <test name="testngTest(failed)">
+    <classes>
+      <class name="com_automation.Runnner.Runnner">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com_automation.Runnner.Runnner -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="softwaretestingmaterial">
+  <listeners><listener class-name="com_automation.Listeners.ITestListenerReport"/></listeners>
+  <test name="testngTest">
+    <classes>
+        <class name="com_automation.Runnner.Runnner"></class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,332 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-19T07:23:59.803Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17682000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com_automation.Steps_Defination.Login_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "As an app Administrator, I want the app to throw an error when a user has captured incorrect password.",
+        "description": "",
+        "id": "requirement-1:-login;as-an-app-administrator--i-want-the-app-to-throw-an-error-when-a-user-has-captured-incorrect-password.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot get screenshot data because of \u0027The size of the taken screenshot equals to zero.\u0027. Make sure the \u0027LayoutParams.FLAG_SECURE\u0027 is not set for the current view\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027FNBU48F32G2\u0027, ip: \u0027192.168.8.124\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: za.co.fnb.connect.itt.gui.Z..., appPackage: za.co.fnb.connect.itt, databaseEnabled: false, desired: {appActivity: za.co.fnb.connect.itt.gui.Z..., appPackage: za.co.fnb.connect.itt, deviceName: HUAWEIY560-L01, noReset: true, platformName: android, platformVersion: 5.1.1, udid: Q6VBBBB5C1702948}, deviceManufacturer: HUAWEI, deviceModel: HUAWEI Y560-L01, deviceName: Q6VBBBB5C1702948, deviceScreenSize: 480x854, deviceUDID: Q6VBBBB5C1702948, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 5.1.1, takesScreenshot: true, udid: Q6VBBBB5C1702948, warnings: {}, webStorageEnabled: false}\nSession ID: 57a91e00-86cf-44cc-8617-1a71cfaba95f\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat com_automation.Config.Take_Screenshot.Capture(Take_Screenshot.java:16)\r\n\tat com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen(Login_Steps.java:46)\r\n\tat ✽.The user is on login screen(file:///C:/Users/f5208882/com.automation.cucumber_Framework/src/test/java/com_automation/Features/Invalid_Credentials.feature:3)\r\n",
+              "duration": 23572000000,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "The user is on login screen",
+            "match": {
+              "location": "com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "The user enters incorrect login password: \"as123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"as123\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com_automation.Steps_Defination.Login_Steps.theUserEntersIncorrectLoginPassword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "The user clicks the login button",
+            "match": {
+              "location": "com_automation.Steps_Defination.Login_Steps.the_user_clicks_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Verify if the app is throwing the error: \"LOGIN ERROR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LOGIN ERROR\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com_automation.Steps_Defination.Login_Steps.verify_if_the_app_is_throwing_the_error(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Requirement_1: Login",
+    "description": "",
+    "id": "requirement-1:-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com_automation/Features/Invalid_Credentials.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-19T07:24:41.108Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com_automation.Steps_Defination.Login_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "As an App user, I want be able to log into the app successfully when I provided correct credentials.",
+        "description": "",
+        "id": "requirement-1:-login;as-an-app-user--i-want-be-able-to-log-into-the-app-successfully-when-i-provided-correct-credentials.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com_automation.Methods.Mobile.Login_Methods.go_To_Login(Login_Methods.java:8)\r\n\tat com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen(Login_Steps.java:45)\r\n\tat ✽.The user is on login screen(file:///C:/Users/f5208882/com.automation.cucumber_Framework/src/test/java/com_automation/Features/Login.feature:3)\r\n",
+              "duration": 76406000000,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "The user is on login screen",
+            "match": {
+              "location": "com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "The user enters correct login details: \"asdfgh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"asdfgh\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com_automation.Steps_Defination.Login_Steps.the_user_enters_correct_login_details(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "The user clicks the login button",
+            "match": {
+              "location": "com_automation.Steps_Defination.Login_Steps.the_user_clicks_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Verify if the user has logged in successful",
+            "match": {
+              "location": "com_automation.Steps_Defination.Login_Steps.verify_if_the_user_has_logged_in_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-19T07:25:57.526Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com_automation.Steps_Defination.Login_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "As an App user, I want be able to log into the app successfully when I provided correct credentials.",
+        "description": "",
+        "id": "requirement-1:-login;as-an-app-user--i-want-be-able-to-log-into-the-app-successfully-when-i-provided-correct-credentials.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com_automation.Methods.Mobile.Login_Methods.go_To_Login(Login_Methods.java:8)\r\n\tat com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen(Login_Steps.java:45)\r\n\tat ✽.The user is on login screen(file:///C:/Users/f5208882/com.automation.cucumber_Framework/src/test/java/com_automation/Features/Login.feature:3)\r\n",
+              "duration": 76449000000,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "The user is on login screen",
+            "match": {
+              "location": "com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "The user enters correct login details: \"asdfgh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"asdfgh\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com_automation.Steps_Defination.Login_Steps.the_user_enters_correct_login_details(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "The user clicks the login button",
+            "match": {
+              "location": "com_automation.Steps_Defination.Login_Steps.the_user_clicks_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Verify if the user has logged in successful",
+            "match": {
+              "location": "com_automation.Steps_Defination.Login_Steps.verify_if_the_user_has_logged_in_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-19T07:27:13.985Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com_automation.Steps_Defination.Login_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "As an app Administrator, I want the app to throw an error when a user has captured incorrect password.",
+        "description": "",
+        "id": "requirement-1:-login;as-an-app-administrator--i-want-the-app-to-throw-an-error-when-a-user-has-captured-incorrect-password.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com_automation.Methods.Mobile.Login_Methods.go_To_Login(Login_Methods.java:8)\r\n\tat com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen(Login_Steps.java:45)\r\n\tat ✽.The user is on login screen(file:///C:/Users/f5208882/com.automation.cucumber_Framework/src/test/java/com_automation/Features/Login.feature:13)\r\n",
+              "duration": 76379000000,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "The user is on login screen",
+            "match": {
+              "location": "com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "The user enters incorrect login password: \"as123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"as123\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com_automation.Steps_Defination.Login_Steps.theUserEntersIncorrectLoginPassword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "The user clicks the login button",
+            "match": {
+              "location": "com_automation.Steps_Defination.Login_Steps.the_user_clicks_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Verify if the app is throwing the error: \"LOGIN ERROR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LOGIN ERROR\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com_automation.Steps_Defination.Login_Steps.verify_if_the_app_is_throwing_the_error(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Requirement_1: Login",
+    "description": "",
+    "id": "requirement-1:-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com_automation/Features/Login.feature",
+    "tags": []
+  }
+]

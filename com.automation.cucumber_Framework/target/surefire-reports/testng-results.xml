@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="softwaretestingmaterial" duration-ms="273155" started-at="2021-03-19T07:23:58Z" finished-at="2021-03-19T07:28:31Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com_automation.Runnner.Runnner@66480dd7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="testngTest" duration-ms="273155" started-at="2021-03-19T07:23:58Z" finished-at="2021-03-19T07:28:31Z">
+      <class name="com_automation.Runnner.Runnner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com_automation.Runnner.Runnner@66480dd7]" name="setUpClass" is-config="true" duration-ms="1340" started-at="2021-03-19T09:23:58Z" finished-at="2021-03-19T09:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com_automation.Runnner.Runnner@66480dd7]" name="runScenario" duration-ms="41583" started-at="2021-03-19T09:23:59Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-19T09:24:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As an app Administrator, I want the app to throw an error when a user has captured incorrect password."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Requirement_1: Login]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Cannot get screenshot data because of 'The size of the taken screenshot equals to zero.'. Make sure the 'LayoutParams.FLAG_SECURE' is not set for the current view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FNBU48F32G2', ip: '192.168.8.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: za.co.fnb.connect.itt.gui.Z..., appPackage: za.co.fnb.connect.itt, databaseEnabled: false, desired: {appActivity: za.co.fnb.connect.itt.gui.Z..., appPackage: za.co.fnb.connect.itt, deviceName: HUAWEIY560-L01, noReset: true, platformName: android, platformVersion: 5.1.1, udid: Q6VBBBB5C1702948}, deviceManufacturer: HUAWEI, deviceModel: HUAWEI Y560-L01, deviceName: Q6VBBBB5C1702948, deviceScreenSize: 480x854, deviceUDID: Q6VBBBB5C1702948, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 5.1.1, takesScreenshot: true, udid: Q6VBBBB5C1702948, warnings: {}, webStorageEnabled: false}
+Session ID: 57a91e00-86cf-44cc-8617-1a71cfaba95f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot get screenshot data because of 'The size of the taken screenshot equals to zero.'. Make sure the 'LayoutParams.FLAG_SECURE' is not set for the current view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FNBU48F32G2', ip: '192.168.8.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: za.co.fnb.connect.itt.gui.Z..., appPackage: za.co.fnb.connect.itt, databaseEnabled: false, desired: {appActivity: za.co.fnb.connect.itt.gui.Z..., appPackage: za.co.fnb.connect.itt, deviceName: HUAWEIY560-L01, noReset: true, platformName: android, platformVersion: 5.1.1, udid: Q6VBBBB5C1702948}, deviceManufacturer: HUAWEI, deviceModel: HUAWEI Y560-L01, deviceName: Q6VBBBB5C1702948, deviceScreenSize: 480x854, deviceUDID: Q6VBBBB5C1702948, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 5.1.1, takesScreenshot: true, udid: Q6VBBBB5C1702948, warnings: {}, webStorageEnabled: false}
+Session ID: 57a91e00-86cf-44cc-8617-1a71cfaba95f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com_automation.Config.Take_Screenshot.Capture(Take_Screenshot.java:16)
+	at com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen(Login_Steps.java:46)
+	at ✽.The user is on login screen(file:///C:/Users/f5208882/com.automation.cucumber_Framework/src/test/java/com_automation/Features/Invalid_Credentials.feature:3)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com_automation.Runnner.Runnner@66480dd7]" name="runScenario" duration-ms="76420" started-at="2021-03-19T09:24:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-19T09:25:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As an App user, I want be able to log into the app successfully when I provided correct credentials."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Requirement_1: Login]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_automation.Methods.Mobile.Login_Methods.go_To_Login(Login_Methods.java:8)
+	at com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen(Login_Steps.java:45)
+	at ✽.The user is on login screen(file:///C:/Users/f5208882/com.automation.cucumber_Framework/src/test/java/com_automation/Features/Login.feature:3)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com_automation.Runnner.Runnner@66480dd7]" name="runScenario" duration-ms="76458" started-at="2021-03-19T09:25:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-19T09:27:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As an App user, I want be able to log into the app successfully when I provided correct credentials."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Requirement_1: Login]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_automation.Methods.Mobile.Login_Methods.go_To_Login(Login_Methods.java:8)
+	at com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen(Login_Steps.java:45)
+	at ✽.The user is on login screen(file:///C:/Users/f5208882/com.automation.cucumber_Framework/src/test/java/com_automation/Features/Login.feature:3)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com_automation.Runnner.Runnner@66480dd7]" name="runScenario" duration-ms="76392" started-at="2021-03-19T09:27:13Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-19T09:28:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As an app Administrator, I want the app to throw an error when a user has captured incorrect password."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Requirement_1: Login]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_automation.Methods.Mobile.Login_Methods.go_To_Login(Login_Methods.java:8)
+	at com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen(Login_Steps.java:45)
+	at ✽.The user is on login screen(file:///C:/Users/f5208882/com.automation.cucumber_Framework/src/test/java/com_automation/Features/Login.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com_automation.Runnner.Runnner@66480dd7]" name="cleanUp" is-config="true" duration-ms="489" started-at="2021-03-19T09:28:30Z" finished-at="2021-03-19T09:28:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com_automation.Runnner.Runnner@66480dd7]" name="tearDownClass" is-config="true" duration-ms="445" started-at="2021-03-19T09:28:30Z" finished-at="2021-03-19T09:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com_automation.Runnner.Runnner -->
+    </test> <!-- testngTest -->
+  </suite> <!-- softwaretestingmaterial -->
+</testng-results>

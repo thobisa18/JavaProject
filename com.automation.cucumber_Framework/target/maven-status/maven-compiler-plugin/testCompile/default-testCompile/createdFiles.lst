@@ -1,0 +1,14 @@
+com_automation\Config\Log.class
+com_automation\Config\Take_Screenshot.class
+com_automation\Page_Object\Mobile\appium_capabilities.class
+com_automation\Steps_Defination\Steps_Super.class
+com_automation\Runnner\Runnner.class
+com_automation\Config\ExtentReport.class
+com_automation\Listeners\ITestListenerReport.class
+com_automation\Config\Report_Generator.class
+com_automation\Page_Object\All_Driver.class
+com_automation\Steps_Defination\Login_Steps.class
+com_automation\Methods\Mobile\Login_Methods.class
+com_automation\Properti_Files\Properties.class
+com_automation\Page_Object\Mobile\Login_Objects.class
+com_automation\Page_Object\Mobile\Generic_Elements.class

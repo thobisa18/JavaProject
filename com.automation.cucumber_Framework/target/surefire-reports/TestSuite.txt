@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 274.2 s <<< FAILURE! - in TestSuite
+com_automation.Runnner.Runnner.runScenario["As an app Administrator, I want the app to throw an error when a user has captured incorrect password.", "Optional[Requirement_1: Login]"](1)  Time elapsed: 41.879 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Cannot get screenshot data because of 'The size of the taken screenshot equals to zero.'. Make sure the 'LayoutParams.FLAG_SECURE' is not set for the current view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FNBU48F32G2', ip: '192.168.8.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: za.co.fnb.connect.itt.gui.Z..., appPackage: za.co.fnb.connect.itt, databaseEnabled: false, desired: {appActivity: za.co.fnb.connect.itt.gui.Z..., appPackage: za.co.fnb.connect.itt, deviceName: HUAWEIY560-L01, noReset: true, platformName: android, platformVersion: 5.1.1, udid: Q6VBBBB5C1702948}, deviceManufacturer: HUAWEI, deviceModel: HUAWEI Y560-L01, deviceName: Q6VBBBB5C1702948, deviceScreenSize: 480x854, deviceUDID: Q6VBBBB5C1702948, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 5.1.1, takesScreenshot: true, udid: Q6VBBBB5C1702948, warnings: {}, webStorageEnabled: false}
+Session ID: 57a91e00-86cf-44cc-8617-1a71cfaba95f
+
+com_automation.Runnner.Runnner.runScenario["As an App user, I want be able to log into the app successfully when I provided correct credentials.", "Optional[Requirement_1: Login]"](2)  Time elapsed: 76.21 s  <<< FAILURE!
+java.lang.NullPointerException
+
+com_automation.Runnner.Runnner.runScenario["As an App user, I want be able to log into the app successfully when I provided correct credentials.", "Optional[Requirement_1: Login]"](3)  Time elapsed: 76.45 s  <<< FAILURE!
+java.lang.NullPointerException
+
+com_automation.Runnner.Runnner.runScenario["As an app Administrator, I want the app to throw an error when a user has captured incorrect password.", "Optional[Requirement_1: Login]"](4)  Time elapsed: 76.386 s  <<< FAILURE!
+java.lang.NullPointerException
+

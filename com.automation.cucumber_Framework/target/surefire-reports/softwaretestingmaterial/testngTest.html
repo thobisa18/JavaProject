@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  testngTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>testngTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/4/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 19 09:23:58 CAT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>273 seconds (273155 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com_automation.Runnner.Runnner.runScenario()'><b>runScenario</b><br>Test class: com_automation.Runnner.Runnner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "As an app Administrator, I want the app to throw an error when a user has captured incorrect password.", "Optional[Requirement_1: Login]"</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot get screenshot data because of &apos;The size of the taken screenshot equals to zero.&apos;. Make sure the &apos;LayoutParams.FLAG_SECURE&apos; is not set for the current view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FNBU48F32G2&apos;, ip: &apos;192.168.8.124&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: za.co.fnb.connect.itt.gui.Z..., appPackage: za.co.fnb.connect.itt, databaseEnabled: false, desired: {appActivity: za.co.fnb.connect.itt.gui.Z..., appPackage: za.co.fnb.connect.itt, deviceName: HUAWEIY560-L01, noReset: true, platformName: android, platformVersion: 5.1.1, udid: Q6VBBBB5C1702948}, deviceManufacturer: HUAWEI, deviceModel: HUAWEI Y560-L01, deviceName: Q6VBBBB5C1702948, deviceScreenSize: 480x854, deviceUDID: Q6VBBBB5C1702948, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 5.1.1, takesScreenshot: true, udid: Q6VBBBB5C1702948, warnings: {}, webStorageEnabled: false}
+Session ID: 57a91e00-86cf-44cc-8617-1a71cfaba95f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com_automation.Config.Take_Screenshot.Capture(Take_Screenshot.java:16)
+	at com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen(Login_Steps.java:46)
+	at ?.The user is on login screen(file:///C:/Users/f5208882/com.automation.cucumber_Framework/src/test/java/com_automation/Features/Invalid_Credentials.feature:3)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1423586012", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1423586012'><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot get screenshot data because of &apos;The size of the taken screenshot equals to zero.&apos;. Make sure the &apos;LayoutParams.FLAG_SECURE&apos; is not set for the current view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;FNBU48F32G2&apos;, ip: &apos;192.168.8.124&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: za.co.fnb.connect.itt.gui.Z..., appPackage: za.co.fnb.connect.itt, databaseEnabled: false, desired: {appActivity: za.co.fnb.connect.itt.gui.Z..., appPackage: za.co.fnb.connect.itt, deviceName: HUAWEIY560-L01, noReset: true, platformName: android, platformVersion: 5.1.1, udid: Q6VBBBB5C1702948}, deviceManufacturer: HUAWEI, deviceModel: HUAWEI Y560-L01, deviceName: Q6VBBBB5C1702948, deviceScreenSize: 480x854, deviceUDID: Q6VBBBB5C1702948, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 5.1.1, takesScreenshot: true, udid: Q6VBBBB5C1702948, warnings: {}, webStorageEnabled: false}
+Session ID: 57a91e00-86cf-44cc-8617-1a71cfaba95f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com_automation.Config.Take_Screenshot.Capture(Take_Screenshot.java:16)
+	at com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen(Login_Steps.java:46)
+	at ?.The user is on login screen(file:///C:/Users/f5208882/com.automation.cucumber_Framework/src/test/java/com_automation/Features/Invalid_Credentials.feature:3)
+</pre></div></td>
+<td>41</td>
+<td>com_automation.Runnner.Runnner@66480dd7</td></tr>
+<tr>
+<td title='com_automation.Runnner.Runnner.runScenario()'><b>runScenario</b><br>Test class: com_automation.Runnner.Runnner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "As an App user, I want be able to log into the app successfully when I provided correct credentials.", "Optional[Requirement_1: Login]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com_automation.Methods.Mobile.Login_Methods.go_To_Login(Login_Methods.java:8)
+	at com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen(Login_Steps.java:45)
+	at ?.The user is on login screen(file:///C:/Users/f5208882/com.automation.cucumber_Framework/src/test/java/com_automation/Features/Login.feature:3)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1707901480", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1707901480'><pre>java.lang.NullPointerException
+	at com_automation.Methods.Mobile.Login_Methods.go_To_Login(Login_Methods.java:8)
+	at com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen(Login_Steps.java:45)
+	at ?.The user is on login screen(file:///C:/Users/f5208882/com.automation.cucumber_Framework/src/test/java/com_automation/Features/Login.feature:3)
+</pre></div></td>
+<td>76</td>
+<td>com_automation.Runnner.Runnner@66480dd7</td></tr>
+<tr>
+<td title='com_automation.Runnner.Runnner.runScenario()'><b>runScenario</b><br>Test class: com_automation.Runnner.Runnner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "As an App user, I want be able to log into the app successfully when I provided correct credentials.", "Optional[Requirement_1: Login]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com_automation.Methods.Mobile.Login_Methods.go_To_Login(Login_Methods.java:8)
+	at com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen(Login_Steps.java:45)
+	at ?.The user is on login screen(file:///C:/Users/f5208882/com.automation.cucumber_Framework/src/test/java/com_automation/Features/Login.feature:3)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1638471954", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1638471954'><pre>java.lang.NullPointerException
+	at com_automation.Methods.Mobile.Login_Methods.go_To_Login(Login_Methods.java:8)
+	at com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen(Login_Steps.java:45)
+	at ?.The user is on login screen(file:///C:/Users/f5208882/com.automation.cucumber_Framework/src/test/java/com_automation/Features/Login.feature:3)
+</pre></div></td>
+<td>76</td>
+<td>com_automation.Runnner.Runnner@66480dd7</td></tr>
+<tr>
+<td title='com_automation.Runnner.Runnner.runScenario()'><b>runScenario</b><br>Test class: com_automation.Runnner.Runnner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "As an app Administrator, I want the app to throw an error when a user has captured incorrect password.", "Optional[Requirement_1: Login]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com_automation.Methods.Mobile.Login_Methods.go_To_Login(Login_Methods.java:8)
+	at com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen(Login_Steps.java:45)
+	at ?.The user is on login screen(file:///C:/Users/f5208882/com.automation.cucumber_Framework/src/test/java/com_automation/Features/Login.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1529002352", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1529002352'><pre>java.lang.NullPointerException
+	at com_automation.Methods.Mobile.Login_Methods.go_To_Login(Login_Methods.java:8)
+	at com_automation.Steps_Defination.Login_Steps.the_user_is_on_login_screen(Login_Steps.java:45)
+	at ?.The user is on login screen(file:///C:/Users/f5208882/com.automation.cucumber_Framework/src/test/java/com_automation/Features/Login.feature:13)
+</pre></div></td>
+<td>76</td>
+<td>com_automation.Runnner.Runnner@66480dd7</td></tr>
+</table><p>
+</body>
+</html>
