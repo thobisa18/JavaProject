@@ -1,0 +1,36 @@
+Download Java 1.8 +
+Set up java environment variables
+Ensure the Project Level is 8 or above to enable Lambda expressions
+Add Omillia certificates to Java for Both QA and Dev from the base URL
+   e.g
+      keytool -import -file "C:\curl\DevCert.cer" -keystore "C:\Program Files\Java\jdk1.8.0_221\jre\lib\security\cacerts" -storepass "changeit"
+Add Smart Call routing certificates for Both QA and Dev environment
+Enable maven to the machine so that you can run maven goals like mvn clean test or mvn surefire-report:report
+
+Ensure you are in FNB intranet or in VPN
+Update DB credentials for to user your account
+There's a file named(config.properties) that contains config values e.g data path, excel report path and extent report path
+Install Android development studio : https://www.studytonight.com/android/setup-android-dev-env
+Set Android environment variables : https://programsbuzz.com/article/how-set-android-environment-variable-path-windows-10
+Add a virtual device:  https://developers.foxitsoftware.com/kb/article/create-an-emulator-for-testing-in-android-studio/#:~:text=In%20Android%20Studio%20go%20to,on%20the%20%E2%80%9CNext%E2%80%9D%20button.
+Run adb command to check mobile device
+Install Appium : https://www.guru99.com/introduction-to-appium.html
+
+
+Connect real Android device for Appium testing over Wi-Fi
+1.	Connect your android device to the laptop via USB cable
+2.	Connect both Laptop and your android device to the same WIFI
+3.	Make adb(Android Debug Bridge) work over tcpip or WIFI, run the below command on command prompt
+Command: adb tcpip 5555
+4.	Disconnect your android device from your laptop
+5.	Add your android device, run this command on command prompt “adb connect <your ip address from WIFI connection>"
+Command:  adb connect 10.9.0.102
+Results: connected to 10.9.0.102:5555
+6.	Verify if the android device is added  on command prompt
+Command: adb devices
+Results: 10.9.0.102:5555 device
+7.	On Desired Capabilities change device ID
+caps.setCapability("udid", "10.9.0.102:5555"); //Give Device ID of your mobile phone
+NB: Both laptop and android device must be connected to the same WIFI
+
+

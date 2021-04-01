@@ -1,0 +1,109 @@
+2020-03-23 13:56:09,930 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2020-03-23 13:56:09,930 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2020-03-23 13:56:09,931 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Verify if the over40 days prompt is played when the reversing a debit order is over40 days       $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-03-23 13:56:09,931 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2020-03-23 13:56:09,931 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2020-03-23 13:56:10,493 INFO  [Log] start a phone call 
+2020-03-23 13:56:44,585 INFO  [Log] The call has been generated, and the dialog id is 053B9859DBAFB82D5FE03410587603EB 
+2020-03-23 13:56:44,606 INFO  [Log] The current step is Ask.Intent and data passed is reverse debit order 
+2020-03-23 13:56:44,606 INFO  [Log]  Omilia prompted for Ask.Intent, Data passed to Omilia was ****reverse debit order***** for dialog id : 053B9859DBAFB82D5FE03410587603EB 
+2020-03-23 13:56:46,625 INFO  [Log] The step Ask.Intent was successful..... 
+2020-03-23 13:56:46,626 INFO  [Log] Please tell me how I may help you? data passed: 'reverse debit order 
+2020-03-23 13:56:46,626 INFO  [Log] The Ask.Intent step has been executed successfull, data passed was  'reverse debit order' 
+2020-03-23 13:56:46,626 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2020-03-23 13:56:46,626 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 The next step: Ask.IdNumber       $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-03-23 13:56:46,626 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2020-03-23 13:56:46,641 INFO  [Log] The current step is Ask.IdNumber and data passed is 7605125485085 
+2020-03-23 13:56:46,641 INFO  [Log]  Omilia prompted for Ask.IdNumber, Data passed to Omilia was ****7605125485085***** for dialog id : 053B9859DBAFB82D5FE03410587603EB 
+2020-03-23 13:56:51,086 INFO  [Log] No input for Call.ValidateIdNumber.firstWait, wait for 10 seconds  
+2020-03-23 13:57:10,596 INFO  [Log] No input passed to omillia 
+2020-03-23 13:57:10,596 INFO  [Log] The next step is Call.SendSmartInContact.firstWait 
+2020-03-23 13:57:10,605 ERROR [Log] The prompt1: To assist you as effectively and securely as possible please approve the notification sent to your FNB Banking App., 
+2020-03-23 13:57:46,204 INFO  [Log] No input passed to omillia 
+2020-03-23 13:57:46,204 INFO  [Log] The next step is Call.SendSmartInContactrepeatedWait 
+2020-03-23 13:57:46,210 ERROR [Log] The prompt1: , 
+2020-03-23 13:58:21,569 INFO  [Log] No input passed to omillia 
+2020-03-23 13:58:21,569 INFO  [Log] The next step is Call.SendSmartInContactrepeatedWait 
+2020-03-23 13:58:21,577 ERROR [Log] The prompt1: , 
+2020-03-23 13:58:37,481 INFO  [Log] No input passed to omillia 
+2020-03-23 13:58:37,481 INFO  [Log] The next step is Ask.CardNumber 
+2020-03-23 13:58:37,486 ERROR [Log] The prompt1: Please enter the last 6 digits of your card. 
+2020-03-23 13:58:37,486 INFO  [Log] The step Ask.IdNumber was successful..... 
+2020-03-23 13:58:37,487 INFO  [Log] Please enter your 13-digit national id number. data passed: '7605125485085 
+2020-03-23 13:58:37,487 INFO  [Log] The Ask.IdNumber step has been executed successfull, data passed was  '7605125485085' 
+2020-03-23 13:58:37,487 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2020-03-23 13:58:37,487 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 The next step: Ask.CardNumber       $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-03-23 13:58:37,487 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2020-03-23 13:58:37,499 INFO  [Log] The current step is Ask.CardNumber and data passed is 406529 
+2020-03-23 13:58:37,499 INFO  [Log]  Omilia prompted for Ask.CardNumber, Data passed to Omilia was ****406529***** for dialog id : 053B9859DBAFB82D5FE03410587603EB 
+2020-03-23 13:58:41,370 INFO  [Log] No input for Call.ValidateCardNumber.firstWait, wait for 10 seconds  
+2020-03-23 13:58:56,762 INFO  [Log] No input passed to omillia 
+2020-03-23 13:58:56,762 INFO  [Log] The next step is Ask.PinNumber 
+2020-03-23 13:58:56,768 ERROR [Log] The prompt1: Finally,Using the telephone keypad, please enter 4-digit pin of the card; 
+2020-03-23 13:58:56,769 INFO  [Log] The step Ask.CardNumber was successful..... 
+2020-03-23 13:58:56,769 INFO  [Log] Please enter the last 6 digits of your card. data passed: '406529 
+2020-03-23 13:58:56,769 INFO  [Log] The Ask.CardNumber step has been executed successfull, data passed was  '406529' 
+2020-03-23 13:58:56,769 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2020-03-23 13:58:56,769 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 The next step: Ask.Pin       $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-03-23 13:58:56,769 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2020-03-23 13:58:56,782 INFO  [Log] The current step is Ask.PinNumber and data passed is 4222 
+2020-03-23 13:58:56,783 INFO  [Log]  Omilia prompted for Ask.Pin, Data passed to Omilia was ****4222***** for dialog id : 053B9859DBAFB82D5FE03410587603EB 
+2020-03-23 13:59:00,769 INFO  [Log] No input for Call.ValidatePinNumber.firstWait, wait for 10 seconds  
+2020-03-23 13:59:18,793 INFO  [Log] No input passed to omillia 
+2020-03-23 13:59:18,793 INFO  [Log] The next step is Get.DebitOrders.firstWait 
+2020-03-23 13:59:18,800 ERROR [Log] The prompt1: , 
+2020-03-23 13:59:47,862 INFO  [Log] No input passed to omillia 
+2020-03-23 13:59:47,862 INFO  [Log] The next step is Announce.DebitOrderOneAtTime 
+2020-03-23 13:59:47,868 ERROR [Log] The prompt1: You are allowed to reverse more than one debit order during this call; however, I can only assist with one debit order at a time. 
+2020-03-23 13:59:47,868 INFO  [Log] The step Ask.Pin was successful..... 
+2020-03-23 13:59:47,868 INFO  [Log] Finally,Using the telephone keypad, please enter 4-digit pin of the card; data passed: '4222 
+2020-03-23 13:59:47,868 INFO  [Log] The Ask.Pin step has been executed successfull, data passed was  '4222' 
+2020-03-23 13:59:47,868 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2020-03-23 13:59:47,868 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 The next step: Announce.DebitOrderOneAtTime       $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-03-23 13:59:47,868 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2020-03-23 13:59:47,881 INFO  [Log] The current step is Announce.DebitOrderOneAtTime and data passed is  
+2020-03-23 13:59:47,881 INFO  [Log]  Omilia prompted for Announce.DebitOrderOneAtTime, Data passed to Omilia was ********* for dialog id : 053B9859DBAFB82D5FE03410587603EB 
+2020-03-23 13:59:49,264 INFO  [Log] The step Announce.DebitOrderOneAtTime was successful..... 
+2020-03-23 13:59:49,264 INFO  [Log] You are allowed to reverse more than one debit order during this call; however, I can only assist with one debit order at a time. data passed: ' 
+2020-03-23 13:59:49,264 INFO  [Log] The Announce.DebitOrderOneAtTime step has been executed successfull, data passed was  '' 
+2020-03-23 13:59:49,264 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2020-03-23 13:59:49,264 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 The next step: Ask.Merchant       $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-03-23 13:59:49,264 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2020-03-23 13:59:49,276 INFO  [Log] The current step is Ask.Merchant and data passed is 701.99 
+2020-03-23 13:59:49,276 INFO  [Log]  Omilia prompted for Ask.Merchant, Data passed to Omilia was ****701.99***** for dialog id : 053B9859DBAFB82D5FE03410587603EB 
+2020-03-23 13:59:50,735 INFO  [Log] The step Ask.Merchant was successful..... 
+2020-03-23 13:59:50,735 INFO  [Log] What is the amount of the debit order you would like to reverse? data passed: '701.99 
+2020-03-23 13:59:50,735 INFO  [Log] The Ask.Merchant step has been executed successfull, data passed was  '701.99' 
+2020-03-23 13:59:50,735 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2020-03-23 13:59:50,735 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 The next step: Announce.ReactionBeforeTransfer       $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-03-23 13:59:50,736 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2020-03-23 13:59:50,736 INFO  [Log] The prompt were equal, The expected prompt : m sorry, but this debit order is more than 40 days old and can no longer be disputed and Actual prompt was 'I\'m sorry, but this debit order is more than 40 days old and can no longer be disputed.' 
+2020-03-23 14:00:02,179 INFO  [Log] The next step is Call.RoutingLogic.firstWait 
+2020-03-23 14:00:13,873 INFO  [Log] The next step is Transfer 
+2020-03-23 14:00:13,882 INFO  [Log] Call is transfered to 0873120800 
+2020-03-23 14:00:13,882 INFO  [Log] Call has succesfully ended 
+2020-03-23 14:00:13,884 INFO  [Log] The debit order :true The Smart results false 
+2020-03-23 14:00:15,035 INFO  [Log] Connection Method Error occured :Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. 
+2020-03-23 14:00:15,035 INFO  [Log] Check if record exist, Error occured :null 
+2020-03-23 14:00:15,035 INFO  [Log] Insert Method Error occured :null 
+2020-03-23 14:00:15,035 INFO  [Log] Record added succesfully 
+2020-03-23 14:00:15,035 INFO  [Log] This size of the map : 1 
+2020-03-23 14:00:15,035 INFO  [Log] Adding row number 2 to the test results 
+2020-03-23 14:00:15,036 INFO  [Log] This Test case is added to the list : Verify if the over40 days prompt is played when the reversing a debit order is over40 days 
+2020-03-23 14:00:15,036 INFO  [Log] This size of the map : 2 
+2020-03-23 14:00:15,036 INFO  [Log] Test Case Name ************************    Dialog ID ******* Execution Status ************Execution Date ****************   Comment 
+2020-03-23 14:00:15,036 INFO  [Log] Verify if the over40 days prompt is played when the reversing a debit order is over40 days  053B9859DBAFB82D5FE03410587603EB  Passed  Mon, 23 Mar 2020 14:00:15 CAT   
+2020-03-23 14:00:15,036 INFO  [Log] This infor will be written Verify if the over40 days prompt is played when the reversing a debit order is over40 days 053B9859DBAFB82D5FE03410587603EB Passed   
+2020-03-23 14:00:15,036 INFO  [Log] Thobisa Verify if the over40 days prompt is played when the reversing a debit order is over40 days 053B9859DBAFB82D5FE03410587603EB Passed  paassssTC_07 
+2020-03-23 14:00:15,037 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+2020-03-23 14:00:15,037 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+2020-03-23 14:00:15,037 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+2020-03-23 14:00:15,037 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+2020-03-23 14:00:15,556 ERROR [Log] Passed ave: 1.0 
+2020-03-23 14:00:15,556 ERROR [Log] passed :1 count: 1 failed:0 
+2020-03-23 14:00:15,556 ERROR [Log]  
+ Pass Rate: 100% || Failure Rate: 0% 
+2020-03-23 14:00:16,441 INFO  [Log] Test_Results written successfully on disk. The results Path C:\curl\Debit_Order_Test_Results_23-Mar-2020-14_00_15.xlsx 

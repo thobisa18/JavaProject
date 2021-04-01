@@ -1,0 +1,12 @@
+2021-03-19 09:54:36,691 INFO  [Log] The value of property 'Local_Flag' is local 
+2021-03-19 09:54:36,699 INFO  [Log] The value of property 'Extent_Result_Path' is ./src/Reports/ 
+2021-03-19 09:54:36,702 INFO  [Log] The value of property 'Excel_Result_Path' is ./src/Reports/ 
+2021-03-19 09:54:36,706 INFO  [Log] The value of property 'Data_Path' is ./src/Data/Test_Data/ 
+2021-03-19 09:54:36,706 INFO  [Log] Data: ./src/Data/Test_Data/ 
+2021-03-19 09:54:37,784 INFO  [Log] The value of property 'Local_Flag' is local 
+2021-03-19 09:54:37,807 INFO  [Log] The value of property 'Extent_Result_Path' is ./src/Reports/ 
+2021-03-19 09:54:37,843 INFO  [Log] The value of property 'Excel_Result_Path' is ./src/Reports/ 
+2021-03-19 09:54:37,899 INFO  [Log] The value of property 'Data_Path' is ./src/Data/Test_Data/ 
+2021-03-19 09:54:37,899 INFO  [Log] Data: ./src/Data/Test_Data/ 
+2021-03-19 09:54:38,000 INFO  [Log] Number of rows in Sheet 137 
+2021-03-19 09:54:38,001 INFO  [Log] Rows :137 

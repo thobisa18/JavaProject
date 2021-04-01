@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="softwaretestingmaterial">
+  <listeners><listener class-name="Config.Composite"/></listeners>
+<test name="testngTest">
+    <classes>
+      <class name="Call_Flow_Scenarios.Deep_Link_Call_Flows.Deep_Link_Driver"/>
+      </classes>
+  </test>
+</suite>

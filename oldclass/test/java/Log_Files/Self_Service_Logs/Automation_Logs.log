@@ -1,0 +1,29 @@
+2021-03-19 09:54:38,331 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2021-03-19 09:54:38,332 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2021-03-19 09:54:38,332 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Ensure that the Intent: Branch.Hours send deeplink to the customer       $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+2021-03-19 09:54:38,333 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2021-03-19 09:54:38,333 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2021-03-19 09:54:38,361 INFO  [Log] The value of property 'Environment' is QA 
+2021-03-19 09:54:38,363 INFO  [Log] The value of property 'QA_End_Point' is https://scc-rbonlp-q01.fnb.co.za:8443 
+2021-03-19 09:54:38,365 INFO  [Log] The value of property 'Defualt_DNIS' is 0873124840 
+2021-03-19 09:54:38,372 INFO  [Log] The value of property 'Defualt_DNIS' is 0873124840 
+2021-03-19 09:54:39,834 INFO  [Log] start a phone call 
+2021-03-19 09:55:17,526 INFO  [Log] The call has been generated, and the dialog id is DF51158D42E932E0AA37411F135EC8A8 
+2021-03-19 09:55:17,570 INFO  [Log] The current step is Ask.Intent and data passed is what time does fnb in irene's village mall close today 
+2021-03-19 09:55:17,571 INFO  [Log]  Omilia prompted for Ask.Intent, Data passed to Omilia was ****what time does fnb in irene's village mall close today***** for dialog id : DF51158D42E932E0AA37411F135EC8A8 
+2021-03-19 09:55:30,102 INFO  [Log] The step Ask.Intent was successful..... 
+2021-03-19 09:55:30,103 INFO  [Log] Please tell me how I may help you? data passed: 'what time does fnb in irene's village mall close today 
+2021-03-19 09:55:30,103 INFO  [Log] The Ask.Intent step has been executed successfull, data passed was  'what time does fnb in irene's village mall close today' 
+2021-03-19 09:55:30,103 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2021-03-19 09:55:30,103 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 The next step: Confirm.DisputeTransaction@Ask.IdNumber       $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+2021-03-19 09:55:30,103 INFO  [Log] ******************************************************************************************************************************************************************************** 
+2021-03-19 09:55:30,147 INFO  [Log] The current step is Ask.IdNumber and data passed is 6102200117081 
+2021-03-19 09:55:30,147 INFO  [Log]  Omilia prompted for Ask.IdNumber, Data passed to Omilia was ****6102200117081***** for dialog id : DF51158D42E932E0AA37411F135EC8A8 
+2021-03-19 09:55:52,939 INFO  [Log] No input for Call.ValidateIdNumber.firstWait, wait for 10 seconds  
+2021-03-19 09:56:08,620 INFO  [Log] No input passed to omillia 
+2021-03-19 09:56:08,620 INFO  [Log] The next step is Announce.DeepLinkEducationalMessage 
+2021-03-19 09:56:08,632 ERROR [Log] The prompt1: Did you know, you are able to complete this request yourself using the FNB Banking App? 
+2021-03-19 09:56:08,632 INFO  [Log] The current step Announce.DeepLinkEducationalMessage 
+2021-03-19 09:56:08,632 WARN  [Log] The step Ask.IdNumber was not successful, User captured three attemps of the same input. Call was tranfered 
+2021-03-19 09:56:08,633 WARN  [Log] The Ask.IdNumber step has not been executed successful, data passed was  '6102200117081', The bot throw this prompt 'Did you know, you are able to complete this request yourself using the FNB Banking App?' 
+2021-03-19 09:56:20,090 INFO  [Log] The next step is Announce.ReactionBeforeTransfer 
